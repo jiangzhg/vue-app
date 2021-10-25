@@ -1,5 +1,11 @@
 # vue-project
 
+### Set up ICE server
+```
+docker pull coturn/coturn:latest
+docker run -d --network host coturn/coturn:latest
+```
+
 ## Project setup
 ```
 npm install
